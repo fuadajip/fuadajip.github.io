@@ -1,0 +1,127 @@
+body{
+	width: 100%;
+	height: auto;
+}
+.btn-default{
+	border-radius: 0px !important;
+}
+/*Navbar*/
+
+.navbar{
+	font-size: 18px;
+	color: #00000 !important;
+	line-height: 28px;
+	margin-bottom: -20px !important;
+	background-color: #ffffff !important;
+}
+.navbar-default{
+	border-color: #ffffff !important;
+}
+.navbar-brand{
+	padding-top: 0.4em !important;
+
+}
+
+.navbar-brand > img{
+	width: 120px !important;
+}
+.form-control{
+	border-radius: 0px !important;
+}
+
+.navbar-header, .navbar-collapse{padding:0.6em 0 !important}
+.navbar-left{
+	margin: 0.6em auto !important
+}
+#searchbox{
+	margin-left: 1em;
+	width: 460px !important;
+}
+.navbar-right > li > a{
+	color: #000000 !important;
+}
+
+.carousel{
+	height: 540px !important
+}
+.carousel-inner>.item>img {
+	width: 100% !important;
+}
+#imgslider{
+	height: 540px !important;
+}
+.carousel-indicators li{
+	background-color: #000000 !important;
+}
+
+.feature-shop{
+	padding-top: 2em;
+	padding-bottom: 1em;
+	height: auto;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.box-feature{
+	padding: 1em 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.product-shop{
+	width: 100%;
+	height: auto;
+	padding: 1em 0;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+	line-height: 21px;
+}
+.product-shop .thumbnail{
+	max-height: 320px !important;
+}
+#img-product{
+	height: 240px !important;
+}
+
+.footer-shop{
+	padding: 1em 0;
+	text-align: center;
+	font-size: 14px;
+	line-height: 21px;
+	letter-spacing: 1px;
+	color: #f3f3f3;
+	background-color: black;
+}
+@media screen and (max-width: 480px) {
+	.navbar .navbar-default{
+		padding-right: -15px !important;
+	}
+	.navbar-collapse, .collapse, .in{
+		padding-top: 0.5em !important;
+	}
+	#searchbox{
+		width: 100% !important;
+	}
+	.navbar-default .navbar-toggle:hover{
+		background-color: #ffffff !important;
+	}
+	.navbar-default .navbar-toggle{
+		border-color: #ffffff !important;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background-color: #000000 !important;
+	}
+
+	.carousel{
+		height: auto !important
+	}
+	.carousel-inner>.item>img {
+		width: 100% !important;
+	}
+	#imgslider{
+		height: 210px !important;
+	}
+}
